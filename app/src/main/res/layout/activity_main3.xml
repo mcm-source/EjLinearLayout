@@ -14,24 +14,24 @@
         android:orientation="horizontal"
         android:layout_weight="1">
 
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
+            android:background="@color/white"
             android:layout_weight="1"
             />
 
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@color/purple_700"/>
+            android:background="@color/red"/>
 
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@color/white" />
+            android:background="@color/white" />
 
 
 
@@ -45,24 +45,24 @@
         android:orientation="horizontal"
         android:layout_weight="1">
 
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/purple_700"
+            android:background="@color/red"
             android:layout_weight="1"
             />
 
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@color/white"/>
+            android:background="@color/white"/>
 
-        <Button
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@color/purple_700" />
+            android:background="@color/red" />
 
 
 
