@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_mensaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text="Hola Adios Adios"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_mensaje2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text="Hola Adios Adios"
+        android:textSize="25sp"
+        android:layout_below="@+id/tv_mensaje1"
+        android:layout_alignParentRight="true" />
+
+    <!-- TextView
+        android:id="@+id/tv_mensaje3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:text="Welcome"
+        android:textSize="25sp"
+        android:layout_toRightOf="@+id/tv_mensaje1"
+        /-->
+
+    <TextView
+        android:id="@+id/tv_mensaje4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="Centrado"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+
+      />
+
+    <TextView
+        android:id="@+id/tv_mensaje5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="Derecha"
+        android:textSize="50sp"
+        android:layout_alignBottom="@id/tv_mensaje4"
+        android:layout_toRightOf="@+id/tv_mensaje4"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
