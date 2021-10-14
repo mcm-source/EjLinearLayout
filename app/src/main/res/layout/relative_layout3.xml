@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text_mensaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilizas IExplorer?"
+        />
+
+
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/teal_200"
+       android:text="@string/button_SI"
+       android:layout_below="@+id/text_mensaje1"
+       android:layout_margin="2dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/button_NO"
+        android:layout_below="@+id/text_mensaje1"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_margin="2dp"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/button_AVECES"
+        android:layout_below="@+id/text_mensaje1"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_margin="2dp"/>
+
+
+
+
+
+
+</RelativeLayout>

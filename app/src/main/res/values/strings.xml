@@ -5,5 +5,10 @@
     <string name="button_above_right">SUP DER.</string>
     <string name="button_below_right">INF DER.</string>
     <string name="button_center">CENTRO</string>
+    <string name="button_SI">SI</string>
+    <string name="button_NO">NO</string>
+    <string name="button_AVECES">A VECES</string>
+
+
 
 </resources>
