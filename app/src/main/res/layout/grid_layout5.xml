@@ -3,10 +3,11 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_gravity="center|right"
     android:columnCount="4"
     android:orientation="horizontal"
-    android:rowCount="6"
-    android:layout_gravity="center">
+    android:rowCount="6">
+
 
     <Button
         android:layout_width="wrap_content"
@@ -113,7 +114,6 @@
         android:layout_gravity="fill_horizontal"
         android:layout_marginRight="2dp"
         android:text="=" />
-
 
 
 </GridLayout>
