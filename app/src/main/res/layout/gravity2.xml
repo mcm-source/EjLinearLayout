@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,29 +22,29 @@
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:background="#bcf5b1"
-            android:gravity="left"
-            android:text="left" />
+            android:gravity="center"
+            android:text="uno" />
 
         <TextView
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:background="#aacaff"
-            android:gravity="center_horizontal"
-            android:text="center_horizontal" />
+            android:gravity="bottom"
+            android:text="dos" />
 
         <TextView
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:background="#bcf5b1"
-            android:gravity="right"
-            android:text="right" />
+            android:gravity="bottom|center"
+            android:text="tres" />
 
         <TextView
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:background="#aacaff"
-            android:gravity="center"
-            android:text="center" />
+            android:gravity="center|right"
+            android:text="cuatro" />
     </LinearLayout>
     <!-- ejemplo de uso de layout_gravity -->
     <LinearLayout
@@ -65,28 +65,32 @@
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_gravity="left"
+            android:gravity="center|left"
             android:background="#bcf5b1"
-            android:text="left" />
+            android:text="cinco" />
 
         <TextView
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
+            android:gravity="center|top"
             android:background="#aacaff"
-            android:text="center_horizontal" />
+            android:text="seis" />
 
         <TextView
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_gravity="right"
+            android:gravity="center|right"
             android:background="#bcf5b1"
-            android:text="right" />
+            android:text="siete" />
 
         <TextView
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
+            android:gravity="center"
             android:background="#aacaff"
-            android:text='center' />
+            android:text='ocho' />
     </LinearLayout>
 </LinearLayout>
