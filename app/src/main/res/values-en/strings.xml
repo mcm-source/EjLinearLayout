@@ -13,16 +13,16 @@
     <string name="solo_margen">Solo margen</string>
     <string name="solo_padding">Solo padding</string>
     <string name="ambos">Ambos</string>
-    <string name="str_titulo_superior">Ejemplo de gravity</string>
-    <string name="str_titulo_inferior">Ejemplo de layout_gravity</string>
-    <string name="str_uno">uno</string>
-    <string name="str_dos">dos</string>
-    <string name="str_tres">tres</string>
-    <string name="str_cuatro">cuatro</string>
-    <string name="str_cinco">cinco</string>
-    <string name="str_seis">seis</string>
-    <string name="str_siete">siete</string>
-    <string name="str_ocho">ocho</string>
+    <string name="str_titulo_superior">Gravity example</string>
+    <string name="str_titulo_inferior">Layout_gravity example</string>
+    <string name="str_uno">une</string>
+    <string name="str_dos">two</string>
+    <string name="str_tres">three</string>
+    <string name="str_cuatro">four</string>
+    <string name="str_cinco">five</string>
+    <string name="str_seis">six</string>
+    <string name="str_siete">seven</string>
+    <string name="str_ocho">eight</string>
 
 
 </resources>

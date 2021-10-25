@@ -12,8 +12,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#00FFFF"
-            android:text="No padding ni margen" />
+            android:background="@color/cian"
+            android:text="@string/no_padding_ni_margen" />
 
 
 
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
-            android:text="No padding ni margen" />
+            android:text="@string/no_padding_ni_margen" />
     </LinearLayout>
 
     <View
@@ -39,14 +39,14 @@
             android:layout_height="wrap_content"
             android:background="#00FFFF"
             android:padding="18dip"
-            android:text="Solo padding" />
+            android:text="@string/solo_padding" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:padding="18dip"
-            android:text="Solo padding" />
+            android:text="@string/solo_padding" />
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -62,14 +62,14 @@
             android:layout_height="wrap_content"
             android:layout_margin="18dip"
             android:background="#00FFFF"
-            android:text="Solo margen" />
+            android:text="@string/solo_margen" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="18dip"
             android:background="#FFFFFF"
-            android:text="Solo margen" />
+            android:text="@string/solo_margen" />
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -86,7 +86,7 @@
             android:layout_margin="18dip"
             android:background="#00FFFF"
             android:padding="18dip"
-            android:text="Ambos" />
+            android:text="@string/ambos" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
             android:layout_margin="18dip"
             android:background="#FFFFFF"
             android:padding="18dip"
-            android:text="Ambos" />
+            android:text="@string/ambos" />
     </LinearLayout>
     <View
         android:layout_width="match_parent"
